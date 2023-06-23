@@ -10,11 +10,11 @@ const Success: React.FC<SuccessProps> = ({ email, setsetIsFormValidated }) => {
     <div
       className="
         min-h-screen
-            md:grid
-            md:place-items-center
-            md:bg-dx_CharcoalGrey
-            
-      "
+        md:grid
+        md:place-items-center
+        md:bg-dx_CharcoalGrey
+        
+        "
     >
       <div
         className="
@@ -22,7 +22,9 @@ const Success: React.FC<SuccessProps> = ({ email, setsetIsFormValidated }) => {
         py-10
         flex
         flex-col
-        bg-dx_White
+        h-screen
+        md:h-auto
+        md:bg-dx_White
         md:max-w-[450px]
         md:rounded-3xl
         md:p-10
